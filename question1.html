@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <form id="contactForm">
+        <div>
+            <input class="textField" type="text" id="firstName" placeholder="First name (minimum 2 characters)" />
+            <div id="firstNameError" class="error">Your first name must be at least 2 characters</div>
+        </div> 
+        <div>
+            <button class="btn" type="submit">Submit</button>
+        </div>
+    </form>
+
+    <style>
+        .error {
+            color: red;
+            display: none;
+        }
+        .textField {
+            border: 1px solid black;
+            border-radius: 50px;
+            padding: 5px 10px;
+            width: 176px;
+        }
+        .btn {
+            border: 1px solid black;
+            border-radius: 50px;
+            margin: 5px 0 0 63px;
+            background-color: gray;
+            color: white;
+            padding: 5px 10px;
+            width: 70px;
+        }
+
+    </style>
+    <script src="question1.js"></script>
+</body>
+</html>
